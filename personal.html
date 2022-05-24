@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Personal Website</title>
+    <script src="index.js"></script>
+    <link rel="shortcut icon" href="ICON.JPG" type="image/x-icon">
+    
+</head>
+
+<body>
+    <!-- The sidebar -->
+    <div class="sidebar">
+        <div class="side_bar">
+            <a class="active" href="#home">Home</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+        </div>
+    </div>
+    <!-- Page content -->
+    <div class="content">
+
+        <div class="txt" id="home">
+            <h1>I'm Basit Iqbal </h1>
+            <h4>Web Developer</h4>
+        </div>
+
+        <div class="persnol_info">
+            <img src="personal.jpeg" class="img" >
+            <h2 class="topic" id="about">Basit Iqbal</h2>
+            <p class="para">Some text about me.Some text about me. I am lorem ipsum consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+        </div>
+
+
+        <h2 class="skills">My Skills</h2>
+        <p>HTML</p>
+        <div class="container">
+            <div class="skill html">50%</div>
+        </div>
+
+        <p>CSS</p>
+        <div class="container">
+            <div class="skill css">20%</div>
+        </div>
+
+        <p>JavaScript</p>
+        <div class="container">
+            <div class="skill JS">20%</div>
+        </div>
+
+        <p>PHP</p>
+        <div class="container">
+            <div class="skill php">22%</div>
+        </div>
+
+        <!-- slideshow start -->
+
+        <h2 class="gallery_txt" id="gallery">Gallery</h2>
+        <div class="gallery">
+
+            <!-- Full-width images with number text -->
+            <div class="mySlides">
+                <div class="numbertext">1 / 6</div>
+                <img src="img/img1.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 6</div>
+                <img src="img/img2.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">3 / 6</div>
+                <img src="img/img3.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">4 / 6</div>
+                <img src="img/img4.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">5 / 6</div>
+                <img src="img/img5.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">6 / 6</div>
+                <img src="img/img6.jpg" style="width:100%">
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <!-- Image text -->
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+            <!-- Thumbnail images -->
+            <div class="row">
+                <div class="column">
+                    <img class="demo cursor" src="img/img1.jpg" style="width:100%" onclick="currentSlide(1)"
+                        alt="Foodie">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/img2.jpg" style="width:100%" onclick="currentSlide(2)"
+                        alt="Mobile apps">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/img3.jpg" style="width:100%" onclick="currentSlide(3)"
+                        alt="Functional Work">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/img4.jpg" style="width:100%" onclick="currentSlide(4)"
+                        alt="Responseive">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/img5.jpg" style="width:100%" onclick="currentSlide(5)"
+                        alt="Well Designed">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/img6.jpg" style="width:100%" onclick="currentSlide(6)"
+                        alt="Simple and Clean">
+                </div>
+            </div>
+        </div>
+
+        <!-- slideshow end -->
+
+        <div class="navbar">
+            <a href="#">11+ <br> Partners</a>
+            <a href="#">60+ <br> Projects Done</a>
+            <a href="#">55+ <br> Happy Clients</a>
+            <a href="#">88+ <br> Meetings</a>
+        </div>
+
+        <h2 class="topic_2">My Price</h2>
+        <div class="tables">
+            <table class="first_tab">
+
+                <tr>
+                    <td>Basic</td>
+                </tr>
+
+                <tr>
+                    <td>Designing</td>
+                </tr>
+
+                <tr>
+                    <td>Devolpment</td>
+                </tr>
+
+                <tr>
+                    <td>Domain</td>
+                </tr>
+
+                <tr>
+                    <td>15$</td>
+                </tr>
+
+                <tr>
+                    <td><button class="btn">Sign Up</button></td>
+                </tr>
+
+            </table>
+
+            <table class="second_tab">
+
+                <tr>
+                    <td>Pro</td>
+                </tr>
+
+                <tr>
+                    <td>Designing</td>
+                </tr>
+
+                <tr>
+                    <td>Devolpment</td>
+                </tr>
+
+                <tr>
+                    <td>Domain</td>
+                </tr>
+
+                <tr>
+                    <td>15$</td>
+                </tr>
+
+                <tr>
+                    <td><button class="btn">Sign Up</button></td>
+                </tr>
+
+            </table>
+        </div>
+
+
+        <div class="contacts" id="contact">
+            <h1 class="contact">Contact Me</h1>
+            <h2 class="contact_1"> Saidu Sharif Mingora,Swat</h2><br>
+            <h2 class="contact_2">Phone:03339484903</h2><br>
+            <h2 class="contact_3">Email:ibasit58@gmail.com</h2>
+        </div>
+        <div class="main_form">
+            <p class="gettouch">Let's get in touch. Send me a message:</p>
+            <form class="form">
+                <input class="name" placeholder="Name"><br><br>
+                <input class="email" placeholder="Email"><br><br>
+                <textarea class="message" placeholder="message"
+                    style="max-height: 300px; max-width: 1000px;"></Textarea>
+            </form>
+        </div>
+        <div class="fonts">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-fw fa-envelope"></i>
+        </div>
+    </div>
+</body>
+
+</html>

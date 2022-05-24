@@ -1,0 +1,291 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: cursive;
+    background-color: black;
+    color: white;
+}
+/* The side navigation menu */
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: black;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  /* Sidebar links */
+  .sidebar a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    text-align: center;
+  }
+  /* side bar padding to top */
+  .side_bar{
+    margin-top: 170px;
+  }
+  
+  /* Active/current link */
+  .sidebar a.active {
+    background-color: black;
+    color: white;
+  }
+  
+  /* Links on mouse-over */
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  
+   /* Page content.  */
+   div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+
+  /* text */
+  .txt{
+      text-align: center;
+      padding: 45px;
+      margin-top: 5px;
+  }
+
+  /* Image */
+  .img{ 
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+  }
+
+  /* Persnol Info */
+  .topic{
+      margin: 15px;
+  }
+
+  /* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: left; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: black; /* White text color */
+}
+.skill{
+  text-align: center ;
+}
+
+.html {width: 90%; background-color:#808080;} /* Green */
+.css {width: 80%; background-color: #808080;} /* Blue */
+.JS {width: 70%; background-color: #808080;} /* Red */
+.php {width: 60%; background-color: #808080;} /* Dark Grey */
+
+/* Style the navigation menu */
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+    margin-top: 15px;
+  }
+  
+  /* Navigation links */
+  .navbar a {
+    float: left;
+    padding: 12px;
+    padding-top: 30px;
+    height: 120px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center; /* If you want the text to be centered */
+  }
+  
+  /* Add a background color on mouse-over */
+  .navbar a:hover {
+    background-color: grey;
+  }
+  .topic_2{
+    margin: 15px;
+  }
+  /* Table */
+  tr,td{
+    border: 1px solid black;
+    background-color: gray;
+    color: white;
+    
+  }
+  tr,td:hover{
+     background-color: black;
+  }
+  .btn{
+    background-color: grey;
+    font-weight: bolder;
+     font-size: 20px;
+     border-radius: 2px;
+  }
+  .first_tab {
+  
+    width: 50%;
+    height: 400px;
+    text-align: center;
+    opacity: 0.9;
+  }
+  .first_tab:hover{
+    opacity: unset;
+    background-color: black;
+  }
+  .second_tab {
+  
+    width: 50%;
+    height: 400px;
+    text-align: center;
+    opacity: 0.9;
+  }
+  .second_tab:hover{
+    opacity: unset;
+    background-color:black;
+  }
+  .tables{
+    display: inline-flex;
+    width: 100%;
+    height: 200px;
+  }
+  
+.contacts{
+   padding-top: 250px;
+  height: 150px;
+}
+
+.contact{
+  padding: 6px;
+}
+.gettouch{
+     font-size: 23px;
+     padding-bottom: 09px;
+}
+.main_form{
+  padding-top: 250px;
+}
+.form{
+  background-color: grey;
+  height: 400px;
+  text-align: center;
+  padding-top: 100px;
+  border-radius: 2px;
+}
+.name, .email, .message{
+  width: 1000px;
+  height: 70px;
+  font-size: 23px;
+
+}
+.fonts{
+  width: 100%;
+  padding-top: 16px;
+  size: 20px;
+}
+
+/* slideshow start */
+/* Position the image container (needed to position the left and right arrows) */
+.gallery {
+  position: relative;
+  margin-top: 26px;
+}
+.gallery_txt{
+  text-align: left; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color:white; /* White text color */
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+/* slideshow end */
